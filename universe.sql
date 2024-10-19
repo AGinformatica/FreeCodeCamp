@@ -325,7 +325,9 @@ INSERT INTO public.planet VALUES (12, 'Dagobah', 6, 2000, true, 2.90);
 -- Data for Name: satellite; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-
+INSERT INTO public.satellite VALUES (1, 'Hubble', 547, true);
+INSERT INTO public.satellite VALUES (2, 'ISS', 408, true);
+INSERT INTO public.satellite VALUES (3, 'Voyager 1', 22800000, false);
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
